@@ -1,0 +1,2668 @@
+{
+  "version": {
+    "fullVersion": "0.59.7",
+    "major": "0",
+    "minor": "59",
+    "patch": "7"
+  },
+  "meta": {},
+  "collections": [
+    {
+      "label": "Global",
+      "name": "global",
+      "path": "content/global",
+      "format": "json",
+      "fields": [
+        {
+          "type": "object",
+          "label": "Header",
+          "name": "header",
+          "fields": [
+            {
+              "type": "object",
+              "label": "Nav Links",
+              "name": "nav",
+              "list": true,
+              "fields": [
+                {
+                  "type": "string",
+                  "label": "Link",
+                  "name": "href",
+                  "namespace": [
+                    "global",
+                    "header",
+                    "nav",
+                    "href"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Label",
+                  "name": "label",
+                  "namespace": [
+                    "global",
+                    "header",
+                    "nav",
+                    "label"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "label": "Children",
+                  "name": "children",
+                  "list": true,
+                  "fields": [
+                    {
+                      "type": "string",
+                      "label": "Link",
+                      "name": "href",
+                      "namespace": [
+                        "global",
+                        "header",
+                        "nav",
+                        "children",
+                        "href"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Label",
+                      "name": "label",
+                      "namespace": [
+                        "global",
+                        "header",
+                        "nav",
+                        "children",
+                        "label"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Blurb (less than 8 words)",
+                      "name": "blurb",
+                      "namespace": [
+                        "global",
+                        "header",
+                        "nav",
+                        "children",
+                        "blurb"
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "label": "Icon Link",
+                      "name": "icon",
+                      "namespace": [
+                        "global",
+                        "header",
+                        "nav",
+                        "children",
+                        "icon"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "global",
+                    "header",
+                    "nav",
+                    "children"
+                  ]
+                }
+              ],
+              "namespace": [
+                "global",
+                "header",
+                "nav"
+              ]
+            }
+          ],
+          "namespace": [
+            "global",
+            "header"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Reviews",
+          "name": "reviews",
+          "fields": [
+            {
+              "type": "number",
+              "label": "Slider Speed (seconds)",
+              "name": "sliderSpeed",
+              "namespace": [
+                "global",
+                "reviews",
+                "sliderSpeed"
+              ]
+            },
+            {
+              "type": "object",
+              "label": "Reviews List",
+              "name": "reviewsList",
+              "list": true,
+              "ui": {
+                "component": "labeled-group-list"
+              },
+              "fields": [
+                {
+                  "type": "string",
+                  "label": "Name",
+                  "name": "title",
+                  "namespace": [
+                    "global",
+                    "reviews",
+                    "reviewsList",
+                    "title"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "label": "Profile Image",
+                  "name": "profile",
+                  "namespace": [
+                    "global",
+                    "reviews",
+                    "reviewsList",
+                    "profile"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Review",
+                  "name": "review",
+                  "ui": {
+                    "component": "textarea"
+                  },
+                  "namespace": [
+                    "global",
+                    "reviews",
+                    "reviewsList",
+                    "review"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Link",
+                  "name": "link",
+                  "namespace": [
+                    "global",
+                    "reviews",
+                    "reviewsList",
+                    "link"
+                  ]
+                },
+                {
+                  "type": "datetime",
+                  "label": "Date Posted",
+                  "name": "date",
+                  "ui": {
+                    "dateFormat": "MMMM DD YYYY",
+                    "timeFormat": false
+                  },
+                  "namespace": [
+                    "global",
+                    "reviews",
+                    "reviewsList",
+                    "date"
+                  ]
+                }
+              ],
+              "namespace": [
+                "global",
+                "reviews",
+                "reviewsList"
+              ]
+            }
+          ],
+          "namespace": [
+            "global",
+            "reviews"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Contact Information",
+          "name": "contactInfo",
+          "fields": [
+            {
+              "type": "string",
+              "label": "Business Name",
+              "name": "businessName",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "businessName"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Phone Number",
+              "name": "phoneNumber",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "phoneNumber"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Email",
+              "name": "email",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "email"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Hours",
+              "name": "hours",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "hours"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Facebook URL",
+              "name": "facebookUrl",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "facebookUrl"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Google Maps URL",
+              "name": "googleMapsUrl",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "googleMapsUrl"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "LinkedIn URL",
+              "name": "linkedInUrl",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "linkedInUrl"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "YouTube URL",
+              "name": "youTubeUrl",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "youTubeUrl"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Instagram URL",
+              "name": "instagramUrl",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "instagramUrl"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "BBB URL",
+              "name": "bbbUrl",
+              "namespace": [
+                "global",
+                "contactInfo",
+                "bbbUrl"
+              ]
+            }
+          ],
+          "namespace": [
+            "global",
+            "contactInfo"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Footer",
+          "name": "footer",
+          "fields": [
+            {
+              "type": "object",
+              "label": "Services",
+              "name": "services",
+              "list": true,
+              "ui": {
+                "component": "labeled-group-list"
+              },
+              "fields": [
+                {
+                  "type": "string",
+                  "label": "Label",
+                  "name": "title",
+                  "namespace": [
+                    "global",
+                    "footer",
+                    "services",
+                    "title"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Link",
+                  "name": "link",
+                  "namespace": [
+                    "global",
+                    "footer",
+                    "services",
+                    "link"
+                  ]
+                }
+              ],
+              "namespace": [
+                "global",
+                "footer",
+                "services"
+              ]
+            },
+            {
+              "type": "object",
+              "label": "Pages",
+              "name": "pages",
+              "list": true,
+              "ui": {
+                "component": "labeled-group-list"
+              },
+              "fields": [
+                {
+                  "type": "string",
+                  "label": "Label",
+                  "name": "title",
+                  "namespace": [
+                    "global",
+                    "footer",
+                    "pages",
+                    "title"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Link",
+                  "name": "link",
+                  "namespace": [
+                    "global",
+                    "footer",
+                    "pages",
+                    "link"
+                  ]
+                }
+              ],
+              "namespace": [
+                "global",
+                "footer",
+                "pages"
+              ]
+            },
+            {
+              "type": "object",
+              "label": "Legal",
+              "name": "legal",
+              "list": true,
+              "ui": {
+                "component": "labeled-group-list"
+              },
+              "fields": [
+                {
+                  "label": "Service",
+                  "name": "title",
+                  "type": "reference",
+                  "collections": [
+                    "legal"
+                  ],
+                  "namespace": [
+                    "global",
+                    "footer",
+                    "legal",
+                    "title"
+                  ]
+                }
+              ],
+              "namespace": [
+                "global",
+                "footer",
+                "legal"
+              ]
+            }
+          ],
+          "namespace": [
+            "global",
+            "footer"
+          ]
+        }
+      ],
+      "namespace": [
+        "global"
+      ]
+    },
+    {
+      "label": "Home",
+      "name": "home",
+      "path": "content/pages/home",
+      "format": "md",
+      "fields": [
+        {
+          "type": "object",
+          "label": "Hero",
+          "name": "hero",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Sub Headline",
+              "name": "subHeadline",
+              "namespace": [
+                "home",
+                "hero",
+                "subHeadline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Headline",
+              "name": "headline",
+              "namespace": [
+                "home",
+                "hero",
+                "headline"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Mobile Background Image",
+              "name": "mobileBackgroundSrc",
+              "namespace": [
+                "home",
+                "hero",
+                "mobileBackgroundSrc"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Hook",
+              "name": "hook",
+              "namespace": [
+                "home",
+                "hero",
+                "hook"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "Video Button Toggle",
+              "name": "videoButtonToggle",
+              "ui": {
+                "component": "toggle"
+              },
+              "namespace": [
+                "home",
+                "hero",
+                "videoButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video Button Text",
+              "name": "videoButtonText",
+              "namespace": [
+                "home",
+                "hero",
+                "videoButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video Button Link",
+              "name": "videoButtonLink",
+              "namespace": [
+                "home",
+                "hero",
+                "videoButtonLink"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button Toggle",
+              "name": "ctaButtonToggle",
+              "ui": {
+                "component": "toggle"
+              },
+              "namespace": [
+                "home",
+                "hero",
+                "ctaButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA Button Text",
+              "name": "ctaButtonText",
+              "namespace": [
+                "home",
+                "hero",
+                "ctaButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA Button Link",
+              "name": "ctaButtonLink",
+              "namespace": [
+                "home",
+                "hero",
+                "ctaButtonLink"
+              ]
+            }
+          ],
+          "namespace": [
+            "home",
+            "hero"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Service Slider",
+          "name": "serviceSlider",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "object",
+              "label": "Category List",
+              "name": "categoryList",
+              "list": true,
+              "ui": {
+                "component": "labeled-group-list"
+              },
+              "fields": [
+                {
+                  "type": "string",
+                  "label": "Category name (button text)",
+                  "name": "title",
+                  "namespace": [
+                    "home",
+                    "serviceSlider",
+                    "categoryList",
+                    "title"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Headline",
+                  "name": "headline",
+                  "namespace": [
+                    "home",
+                    "serviceSlider",
+                    "categoryList",
+                    "headline"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Body Text",
+                  "name": "body",
+                  "ui": {
+                    "component": "markdown"
+                  },
+                  "namespace": [
+                    "home",
+                    "serviceSlider",
+                    "categoryList",
+                    "body"
+                  ]
+                },
+                {
+                  "type": "boolean",
+                  "label": "Toggle Service Buttons",
+                  "name": "toggleServices",
+                  "namespace": [
+                    "home",
+                    "serviceSlider",
+                    "categoryList",
+                    "toggleServices"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "label": "Services",
+                  "name": "services",
+                  "list": true,
+                  "ui": {
+                    "component": "labeled-group-list"
+                  },
+                  "fields": [
+                    {
+                      "label": "Service",
+                      "name": "title",
+                      "type": "reference",
+                      "collections": [
+                        "service"
+                      ],
+                      "namespace": [
+                        "home",
+                        "serviceSlider",
+                        "categoryList",
+                        "services",
+                        "title"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "home",
+                    "serviceSlider",
+                    "categoryList",
+                    "services"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "CTA Button Text",
+                  "name": "ctaButtonText",
+                  "namespace": [
+                    "home",
+                    "serviceSlider",
+                    "categoryList",
+                    "ctaButtonText"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "CTA Button Link",
+                  "name": "ctaButtonLink",
+                  "namespace": [
+                    "home",
+                    "serviceSlider",
+                    "categoryList",
+                    "ctaButtonLink"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "label": "Before Image",
+                  "name": "beforeImage",
+                  "namespace": [
+                    "home",
+                    "serviceSlider",
+                    "categoryList",
+                    "beforeImage"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "label": "After Image",
+                  "name": "afterImage",
+                  "namespace": [
+                    "home",
+                    "serviceSlider",
+                    "categoryList",
+                    "afterImage"
+                  ]
+                }
+              ],
+              "namespace": [
+                "home",
+                "serviceSlider",
+                "categoryList"
+              ]
+            }
+          ],
+          "namespace": [
+            "home",
+            "serviceSlider"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Plan Slider",
+          "name": "planSlider",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "object",
+              "label": "Category List",
+              "name": "categoryList",
+              "list": true,
+              "ui": {
+                "component": "labeled-group-list"
+              },
+              "fields": [
+                {
+                  "type": "string",
+                  "label": "Plan title (button text)",
+                  "name": "title",
+                  "namespace": [
+                    "home",
+                    "planSlider",
+                    "categoryList",
+                    "title"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Headline",
+                  "name": "headline",
+                  "namespace": [
+                    "home",
+                    "planSlider",
+                    "categoryList",
+                    "headline"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "label": "Icon",
+                  "name": "icon",
+                  "namespace": [
+                    "home",
+                    "planSlider",
+                    "categoryList",
+                    "icon"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Body",
+                  "name": "body",
+                  "ui": {
+                    "component": "markdown"
+                  },
+                  "namespace": [
+                    "home",
+                    "planSlider",
+                    "categoryList",
+                    "body"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "CTA button text",
+                  "name": "ctaButtonText",
+                  "namespace": [
+                    "home",
+                    "planSlider",
+                    "categoryList",
+                    "ctaButtonText"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "CTA button link",
+                  "name": "ctaButtonLink",
+                  "namespace": [
+                    "home",
+                    "planSlider",
+                    "categoryList",
+                    "ctaButtonLink"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "label": "Featured Image",
+                  "name": "featuredImage",
+                  "namespace": [
+                    "home",
+                    "planSlider",
+                    "categoryList",
+                    "featuredImage"
+                  ]
+                }
+              ],
+              "namespace": [
+                "home",
+                "planSlider",
+                "categoryList"
+              ]
+            }
+          ],
+          "namespace": [
+            "home",
+            "planSlider"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Pre Footer CTA",
+          "name": "preFooterCTA",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Sub Headline",
+              "name": "subHeadline",
+              "namespace": [
+                "home",
+                "preFooterCTA",
+                "subHeadline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Headline",
+              "name": "headline",
+              "namespace": [
+                "home",
+                "preFooterCTA",
+                "headline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA Button Text",
+              "name": "ctaButtonText",
+              "namespace": [
+                "home",
+                "preFooterCTA",
+                "ctaButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA Button Link",
+              "name": "ctaButtonLink",
+              "namespace": [
+                "home",
+                "preFooterCTA",
+                "ctaButtonLink"
+              ]
+            }
+          ],
+          "namespace": [
+            "home",
+            "preFooterCTA"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "SEO",
+          "name": "seo",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Title",
+              "description": "50-60 characters",
+              "name": "title",
+              "namespace": [
+                "home",
+                "seo",
+                "title"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Description",
+              "description": "155-160 characters",
+              "name": "description",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "home",
+                "seo",
+                "description"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Image",
+              "name": "image",
+              "namespace": [
+                "home",
+                "seo",
+                "image"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Follow",
+              "name": "noFollow",
+              "namespace": [
+                "home",
+                "seo",
+                "noFollow"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Index",
+              "name": "noIndex",
+              "namespace": [
+                "home",
+                "seo",
+                "noIndex"
+              ]
+            }
+          ],
+          "namespace": [
+            "home",
+            "seo"
+          ]
+        }
+      ],
+      "namespace": [
+        "home"
+      ]
+    },
+    {
+      "label": "About",
+      "name": "about",
+      "path": "content/pages/about",
+      "format": "md",
+      "fields": [
+        {
+          "type": "object",
+          "label": "Hero",
+          "name": "hero",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "image",
+              "label": "Icon",
+              "name": "icon",
+              "namespace": [
+                "about",
+                "hero",
+                "icon"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Page Title",
+              "name": "pageTitle",
+              "namespace": [
+                "about",
+                "hero",
+                "pageTitle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Headline",
+              "name": "headline",
+              "namespace": [
+                "about",
+                "hero",
+                "headline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Hook",
+              "name": "hook",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "about",
+                "hero",
+                "hook"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button",
+              "name": "ctaButtonToggle",
+              "namespace": [
+                "about",
+                "hero",
+                "ctaButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button text",
+              "name": "ctaButtonText",
+              "namespace": [
+                "about",
+                "hero",
+                "ctaButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button link",
+              "name": "ctaButtonLink",
+              "namespace": [
+                "about",
+                "hero",
+                "ctaButtonLink"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "Video Button",
+              "name": "videoButtonToggle",
+              "namespace": [
+                "about",
+                "hero",
+                "videoButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video button text",
+              "name": "videoButtonText",
+              "namespace": [
+                "about",
+                "hero",
+                "videoButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video button link",
+              "name": "videoButtonLink",
+              "namespace": [
+                "about",
+                "hero",
+                "videoButtonLink"
+              ]
+            }
+          ],
+          "namespace": [
+            "about",
+            "hero"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Featured Section",
+          "name": "featuredSection",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Sub Headline",
+              "name": "subHeadline",
+              "namespace": [
+                "about",
+                "featuredSection",
+                "subHeadline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Headline",
+              "name": "headline",
+              "namespace": [
+                "about",
+                "featuredSection",
+                "headline"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Image",
+              "name": "image",
+              "namespace": [
+                "about",
+                "featuredSection",
+                "image"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Body",
+              "name": "body",
+              "ui": {
+                "component": "markdown"
+              },
+              "namespace": [
+                "about",
+                "featuredSection",
+                "body"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button",
+              "name": "ctaButtonToggle",
+              "namespace": [
+                "about",
+                "featuredSection",
+                "ctaButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button text",
+              "name": "ctaButtonText",
+              "namespace": [
+                "about",
+                "featuredSection",
+                "ctaButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button link",
+              "name": "ctaButtonLink",
+              "namespace": [
+                "about",
+                "featuredSection",
+                "ctaButtonLink"
+              ]
+            }
+          ],
+          "namespace": [
+            "about",
+            "featuredSection"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Featured Grid",
+          "name": "featuredGrid",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "number",
+              "label": "Max Columns Per Row",
+              "name": "maxColumns",
+              "namespace": [
+                "about",
+                "featuredGrid",
+                "maxColumns"
+              ]
+            },
+            {
+              "type": "object",
+              "label": "Features",
+              "name": "features",
+              "list": true,
+              "ui": {
+                "component": "labeled-group-list"
+              },
+              "fields": [
+                {
+                  "type": "string",
+                  "label": "Feature Name",
+                  "name": "title",
+                  "namespace": [
+                    "about",
+                    "featuredGrid",
+                    "features",
+                    "title"
+                  ]
+                },
+                {
+                  "type": "boolean",
+                  "label": "Toggle Icon",
+                  "name": "iconToggle",
+                  "namespace": [
+                    "about",
+                    "featuredGrid",
+                    "features",
+                    "iconToggle"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "label": "Icon",
+                  "name": "icon",
+                  "namespace": [
+                    "about",
+                    "featuredGrid",
+                    "features",
+                    "icon"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Headline",
+                  "name": "headline",
+                  "namespace": [
+                    "about",
+                    "featuredGrid",
+                    "features",
+                    "headline"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Body",
+                  "name": "body",
+                  "ui": {
+                    "component": "textarea"
+                  },
+                  "namespace": [
+                    "about",
+                    "featuredGrid",
+                    "features",
+                    "body"
+                  ]
+                }
+              ],
+              "namespace": [
+                "about",
+                "featuredGrid",
+                "features"
+              ]
+            }
+          ],
+          "namespace": [
+            "about",
+            "featuredGrid"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Long Text",
+          "name": "longText",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Sub Headline",
+              "name": "subHeadline",
+              "namespace": [
+                "about",
+                "longText",
+                "subHeadline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Headline",
+              "name": "headline",
+              "namespace": [
+                "about",
+                "longText",
+                "headline"
+              ]
+            },
+            {
+              "type": "object",
+              "label": "Body Text Rows",
+              "name": "bodyRows",
+              "description": "Add a row of body text",
+              "ui": {
+                "component": "group-list",
+                "label": "Row"
+              },
+              "list": true,
+              "fields": [
+                {
+                  "type": "object",
+                  "label": "Body Text Columns",
+                  "name": "bodyColumns",
+                  "description": "Add a column of body text",
+                  "list": true,
+                  "ui": {
+                    "component": "group-list",
+                    "label": "Column"
+                  },
+                  "fields": [
+                    {
+                      "type": "string",
+                      "label": "Body",
+                      "name": "body",
+                      "ui": {
+                        "component": "markdown"
+                      },
+                      "namespace": [
+                        "about",
+                        "longText",
+                        "bodyRows",
+                        "bodyColumns",
+                        "body"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "about",
+                    "longText",
+                    "bodyRows",
+                    "bodyColumns"
+                  ]
+                }
+              ],
+              "namespace": [
+                "about",
+                "longText",
+                "bodyRows"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button",
+              "name": "ctaButtonToggle",
+              "namespace": [
+                "about",
+                "longText",
+                "ctaButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button text",
+              "name": "ctaButtonText",
+              "namespace": [
+                "about",
+                "longText",
+                "ctaButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button link",
+              "name": "ctaButtonLink",
+              "namespace": [
+                "about",
+                "longText",
+                "ctaButtonLink"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button 2",
+              "name": "ctaButtonToggle2",
+              "namespace": [
+                "about",
+                "longText",
+                "ctaButtonToggle2"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button 2 text",
+              "name": "ctaButtonText2",
+              "namespace": [
+                "about",
+                "longText",
+                "ctaButtonText2"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button 2 link",
+              "name": "ctaButtonLink2",
+              "namespace": [
+                "about",
+                "longText",
+                "ctaButtonLink2"
+              ]
+            }
+          ],
+          "namespace": [
+            "about",
+            "longText"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "SEO",
+          "name": "seo",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Title",
+              "description": "50-60 characters",
+              "name": "title",
+              "namespace": [
+                "about",
+                "seo",
+                "title"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Description",
+              "description": "155-160 characters",
+              "name": "description",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "about",
+                "seo",
+                "description"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Image",
+              "name": "image",
+              "namespace": [
+                "about",
+                "seo",
+                "image"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Follow",
+              "name": "noFollow",
+              "namespace": [
+                "about",
+                "seo",
+                "noFollow"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Index",
+              "name": "noIndex",
+              "namespace": [
+                "about",
+                "seo",
+                "noIndex"
+              ]
+            }
+          ],
+          "namespace": [
+            "about",
+            "seo"
+          ]
+        }
+      ],
+      "namespace": [
+        "about"
+      ]
+    },
+    {
+      "label": "Contact",
+      "name": "contact",
+      "path": "content/pages/contact",
+      "format": "md",
+      "fields": [
+        {
+          "type": "object",
+          "label": "Hero",
+          "name": "hero",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "image",
+              "label": "Icon",
+              "name": "icon",
+              "namespace": [
+                "contact",
+                "hero",
+                "icon"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Page Title",
+              "name": "pageTitle",
+              "namespace": [
+                "contact",
+                "hero",
+                "pageTitle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Headline",
+              "name": "headline",
+              "namespace": [
+                "contact",
+                "hero",
+                "headline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Hook",
+              "name": "hook",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "contact",
+                "hero",
+                "hook"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button",
+              "name": "ctaButtonToggle",
+              "namespace": [
+                "contact",
+                "hero",
+                "ctaButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button text",
+              "name": "ctaButtonText",
+              "namespace": [
+                "contact",
+                "hero",
+                "ctaButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button link",
+              "name": "ctaButtonLink",
+              "namespace": [
+                "contact",
+                "hero",
+                "ctaButtonLink"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "Video Button",
+              "name": "videoButtonToggle",
+              "namespace": [
+                "contact",
+                "hero",
+                "videoButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video button text",
+              "name": "videoButtonText",
+              "namespace": [
+                "contact",
+                "hero",
+                "videoButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video button link",
+              "name": "videoButtonLink",
+              "namespace": [
+                "contact",
+                "hero",
+                "videoButtonLink"
+              ]
+            }
+          ],
+          "namespace": [
+            "contact",
+            "hero"
+          ]
+        },
+        {
+          "type": "string",
+          "label": "Service Areas",
+          "name": "serviceAreas",
+          "list": true,
+          "ui": {
+            "component": "list",
+            "field": {
+              "component": "text"
+            }
+          },
+          "namespace": [
+            "contact",
+            "serviceAreas"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "SEO",
+          "name": "seo",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Title",
+              "description": "50-60 characters",
+              "name": "title",
+              "namespace": [
+                "contact",
+                "seo",
+                "title"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Description",
+              "description": "155-160 characters",
+              "name": "description",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "contact",
+                "seo",
+                "description"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Image",
+              "name": "image",
+              "namespace": [
+                "contact",
+                "seo",
+                "image"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Follow",
+              "name": "noFollow",
+              "namespace": [
+                "contact",
+                "seo",
+                "noFollow"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Index",
+              "name": "noIndex",
+              "namespace": [
+                "contact",
+                "seo",
+                "noIndex"
+              ]
+            }
+          ],
+          "namespace": [
+            "contact",
+            "seo"
+          ]
+        }
+      ],
+      "namespace": [
+        "contact"
+      ]
+    },
+    {
+      "label": "Projects",
+      "name": "projects",
+      "path": "content/pages/projects",
+      "format": "md",
+      "fields": [
+        {
+          "type": "object",
+          "label": "Hero",
+          "name": "hero",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "image",
+              "label": "Icon",
+              "name": "icon",
+              "namespace": [
+                "projects",
+                "hero",
+                "icon"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Page Title",
+              "name": "pageTitle",
+              "namespace": [
+                "projects",
+                "hero",
+                "pageTitle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Headline",
+              "name": "headline",
+              "namespace": [
+                "projects",
+                "hero",
+                "headline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Hook",
+              "name": "hook",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "projects",
+                "hero",
+                "hook"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button",
+              "name": "ctaButtonToggle",
+              "namespace": [
+                "projects",
+                "hero",
+                "ctaButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button text",
+              "name": "ctaButtonText",
+              "namespace": [
+                "projects",
+                "hero",
+                "ctaButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button link",
+              "name": "ctaButtonLink",
+              "namespace": [
+                "projects",
+                "hero",
+                "ctaButtonLink"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "Video Button",
+              "name": "videoButtonToggle",
+              "namespace": [
+                "projects",
+                "hero",
+                "videoButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video button text",
+              "name": "videoButtonText",
+              "namespace": [
+                "projects",
+                "hero",
+                "videoButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video button link",
+              "name": "videoButtonLink",
+              "namespace": [
+                "projects",
+                "hero",
+                "videoButtonLink"
+              ]
+            }
+          ],
+          "namespace": [
+            "projects",
+            "hero"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "SEO",
+          "name": "seo",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Title",
+              "description": "50-60 characters",
+              "name": "title",
+              "namespace": [
+                "projects",
+                "seo",
+                "title"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Description",
+              "description": "155-160 characters",
+              "name": "description",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "projects",
+                "seo",
+                "description"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Image",
+              "name": "image",
+              "namespace": [
+                "projects",
+                "seo",
+                "image"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Follow",
+              "name": "noFollow",
+              "namespace": [
+                "projects",
+                "seo",
+                "noFollow"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Index",
+              "name": "noIndex",
+              "namespace": [
+                "projects",
+                "seo",
+                "noIndex"
+              ]
+            }
+          ],
+          "namespace": [
+            "projects",
+            "seo"
+          ]
+        }
+      ],
+      "namespace": [
+        "projects"
+      ]
+    },
+    {
+      "label": "Project",
+      "name": "project",
+      "path": "content/project",
+      "format": "md",
+      "fields": [
+        {
+          "type": "string",
+          "label": "Title",
+          "name": "title",
+          "namespace": [
+            "project",
+            "title"
+          ]
+        },
+        {
+          "type": "datetime",
+          "label": "Date",
+          "name": "date",
+          "ui": {
+            "dateFormat": "MMMM DD YYYY",
+            "timeFormat": false
+          },
+          "namespace": [
+            "project",
+            "date"
+          ]
+        },
+        {
+          "type": "image",
+          "label": "Featured image",
+          "name": "featuredImage",
+          "namespace": [
+            "project",
+            "featuredImage"
+          ]
+        },
+        {
+          "type": "boolean",
+          "label": "Before after toggle",
+          "name": "beforeAfterToggle",
+          "namespace": [
+            "project",
+            "beforeAfterToggle"
+          ]
+        },
+        {
+          "type": "image",
+          "label": "Before image",
+          "name": "beforeImage",
+          "namespace": [
+            "project",
+            "beforeImage"
+          ]
+        },
+        {
+          "type": "image",
+          "label": "After image",
+          "name": "afterImage",
+          "namespace": [
+            "project",
+            "afterImage"
+          ]
+        },
+        {
+          "type": "string",
+          "label": "Project description",
+          "name": "projectDescription",
+          "ui": {
+            "component": "markdown"
+          },
+          "namespace": [
+            "project",
+            "projectDescription"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "More photos",
+          "name": "morePhotos",
+          "list": true,
+          "ui": {
+            "component": "labeled-group-list"
+          },
+          "fields": [
+            {
+              "type": "image",
+              "label": "Image",
+              "name": "title",
+              "namespace": [
+                "project",
+                "morePhotos",
+                "title"
+              ]
+            }
+          ],
+          "namespace": [
+            "project",
+            "morePhotos"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "SEO",
+          "name": "seo",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Title",
+              "description": "50-60 characters",
+              "name": "title",
+              "namespace": [
+                "project",
+                "seo",
+                "title"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Description",
+              "description": "155-160 characters",
+              "name": "description",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "project",
+                "seo",
+                "description"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Image",
+              "name": "image",
+              "namespace": [
+                "project",
+                "seo",
+                "image"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Follow",
+              "name": "noFollow",
+              "namespace": [
+                "project",
+                "seo",
+                "noFollow"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Index",
+              "name": "noIndex",
+              "namespace": [
+                "project",
+                "seo",
+                "noIndex"
+              ]
+            }
+          ],
+          "namespace": [
+            "project",
+            "seo"
+          ]
+        },
+        {
+          "type": "boolean",
+          "label": "Deactivate project",
+          "name": "deactivate",
+          "description": "Deactivating the project will remove it from being viewed (note: please make sure a redirect is created if you don't want this post to viewed again)",
+          "namespace": [
+            "project",
+            "deactivate"
+          ]
+        }
+      ],
+      "namespace": [
+        "project"
+      ]
+    },
+    {
+      "label": "Service",
+      "name": "service",
+      "path": "content/service",
+      "format": "md",
+      "fields": [
+        {
+          "type": "string",
+          "label": "Service Name",
+          "name": "serviceName",
+          "namespace": [
+            "service",
+            "serviceName"
+          ]
+        },
+        {
+          "type": "image",
+          "label": "Icon ",
+          "description": "svg files only please",
+          "name": "icon",
+          "namespace": [
+            "service",
+            "icon"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Hero",
+          "name": "hero",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "image",
+              "label": "Icon",
+              "name": "icon",
+              "namespace": [
+                "service",
+                "hero",
+                "icon"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Page Title",
+              "name": "pageTitle",
+              "namespace": [
+                "service",
+                "hero",
+                "pageTitle"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Background Image",
+              "name": "backgroundImageSrc",
+              "namespace": [
+                "service",
+                "hero",
+                "backgroundImageSrc"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Headline",
+              "name": "headline",
+              "namespace": [
+                "service",
+                "hero",
+                "headline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Hook",
+              "name": "hook",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "service",
+                "hero",
+                "hook"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button",
+              "name": "ctaButtonToggle",
+              "namespace": [
+                "service",
+                "hero",
+                "ctaButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button text",
+              "name": "ctaButtonText",
+              "namespace": [
+                "service",
+                "hero",
+                "ctaButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button link",
+              "name": "ctaButtonLink",
+              "namespace": [
+                "service",
+                "hero",
+                "ctaButtonLink"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "Video Button",
+              "name": "videoButtonToggle",
+              "namespace": [
+                "service",
+                "hero",
+                "videoButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video button text",
+              "name": "videoButtonText",
+              "namespace": [
+                "service",
+                "hero",
+                "videoButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Video button link",
+              "name": "videoButtonLink",
+              "namespace": [
+                "service",
+                "hero",
+                "videoButtonLink"
+              ]
+            }
+          ],
+          "namespace": [
+            "service",
+            "hero"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Featured Grid",
+          "name": "featuredGrid",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "number",
+              "label": "Max Columns Per Row",
+              "name": "maxColumns",
+              "namespace": [
+                "service",
+                "featuredGrid",
+                "maxColumns"
+              ]
+            },
+            {
+              "type": "object",
+              "label": "Features",
+              "name": "features",
+              "list": true,
+              "ui": {
+                "component": "labeled-group-list"
+              },
+              "fields": [
+                {
+                  "type": "string",
+                  "label": "Feature Name",
+                  "name": "title",
+                  "namespace": [
+                    "service",
+                    "featuredGrid",
+                    "features",
+                    "title"
+                  ]
+                },
+                {
+                  "type": "boolean",
+                  "label": "Toggle Icon",
+                  "name": "iconToggle",
+                  "namespace": [
+                    "service",
+                    "featuredGrid",
+                    "features",
+                    "iconToggle"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "label": "Icon",
+                  "name": "icon",
+                  "namespace": [
+                    "service",
+                    "featuredGrid",
+                    "features",
+                    "icon"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Headline",
+                  "name": "headline",
+                  "namespace": [
+                    "service",
+                    "featuredGrid",
+                    "features",
+                    "headline"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Body",
+                  "name": "body",
+                  "ui": {
+                    "component": "textarea"
+                  },
+                  "namespace": [
+                    "service",
+                    "featuredGrid",
+                    "features",
+                    "body"
+                  ]
+                }
+              ],
+              "namespace": [
+                "service",
+                "featuredGrid",
+                "features"
+              ]
+            }
+          ],
+          "namespace": [
+            "service",
+            "featuredGrid"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Long Text",
+          "name": "longText",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Sub Headline",
+              "name": "subHeadline",
+              "namespace": [
+                "service",
+                "longText",
+                "subHeadline"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Headline",
+              "name": "headline",
+              "namespace": [
+                "service",
+                "longText",
+                "headline"
+              ]
+            },
+            {
+              "type": "object",
+              "label": "Body Text Rows",
+              "name": "bodyRows",
+              "description": "Add a row of body text",
+              "ui": {
+                "component": "group-list",
+                "label": "Row"
+              },
+              "list": true,
+              "fields": [
+                {
+                  "type": "object",
+                  "label": "Body Text Columns",
+                  "name": "bodyColumns",
+                  "description": "Add a column of body text",
+                  "list": true,
+                  "ui": {
+                    "component": "group-list",
+                    "label": "Column"
+                  },
+                  "fields": [
+                    {
+                      "type": "string",
+                      "label": "Body",
+                      "name": "body",
+                      "ui": {
+                        "component": "markdown"
+                      },
+                      "namespace": [
+                        "service",
+                        "longText",
+                        "bodyRows",
+                        "bodyColumns",
+                        "body"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "service",
+                    "longText",
+                    "bodyRows",
+                    "bodyColumns"
+                  ]
+                }
+              ],
+              "namespace": [
+                "service",
+                "longText",
+                "bodyRows"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button",
+              "name": "ctaButtonToggle",
+              "namespace": [
+                "service",
+                "longText",
+                "ctaButtonToggle"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button text",
+              "name": "ctaButtonText",
+              "namespace": [
+                "service",
+                "longText",
+                "ctaButtonText"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button link",
+              "name": "ctaButtonLink",
+              "namespace": [
+                "service",
+                "longText",
+                "ctaButtonLink"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "CTA Button 2",
+              "name": "ctaButtonToggle2",
+              "namespace": [
+                "service",
+                "longText",
+                "ctaButtonToggle2"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button 2 text",
+              "name": "ctaButtonText2",
+              "namespace": [
+                "service",
+                "longText",
+                "ctaButtonText2"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "CTA button 2 link",
+              "name": "ctaButtonLink2",
+              "namespace": [
+                "service",
+                "longText",
+                "ctaButtonLink2"
+              ]
+            }
+          ],
+          "namespace": [
+            "service",
+            "longText"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "SEO",
+          "name": "seo",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Title",
+              "description": "50-60 characters",
+              "name": "title",
+              "namespace": [
+                "service",
+                "seo",
+                "title"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Description",
+              "description": "155-160 characters",
+              "name": "description",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "service",
+                "seo",
+                "description"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Image",
+              "name": "image",
+              "namespace": [
+                "service",
+                "seo",
+                "image"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Follow",
+              "name": "noFollow",
+              "namespace": [
+                "service",
+                "seo",
+                "noFollow"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Index",
+              "name": "noIndex",
+              "namespace": [
+                "service",
+                "seo",
+                "noIndex"
+              ]
+            }
+          ],
+          "namespace": [
+            "service",
+            "seo"
+          ]
+        }
+      ],
+      "namespace": [
+        "service"
+      ]
+    },
+    {
+      "label": "Legal",
+      "name": "legal",
+      "path": "content/legal",
+      "format": "md",
+      "fields": [
+        {
+          "type": "string",
+          "label": "Legal Document Title",
+          "name": "legalDocumentTitle",
+          "namespace": [
+            "legal",
+            "legalDocumentTitle"
+          ]
+        },
+        {
+          "type": "string",
+          "label": "Body",
+          "name": "body",
+          "ui": {
+            "component": "markdown"
+          },
+          "namespace": [
+            "legal",
+            "body"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "SEO",
+          "name": "seo",
+          "ui": {
+            "component": "group"
+          },
+          "fields": [
+            {
+              "type": "string",
+              "label": "Title",
+              "description": "50-60 characters",
+              "name": "title",
+              "namespace": [
+                "legal",
+                "seo",
+                "title"
+              ]
+            },
+            {
+              "type": "string",
+              "label": "Description",
+              "description": "155-160 characters",
+              "name": "description",
+              "ui": {
+                "component": "textarea"
+              },
+              "namespace": [
+                "legal",
+                "seo",
+                "description"
+              ]
+            },
+            {
+              "type": "image",
+              "label": "Image",
+              "name": "image",
+              "namespace": [
+                "legal",
+                "seo",
+                "image"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Follow",
+              "name": "noFollow",
+              "namespace": [
+                "legal",
+                "seo",
+                "noFollow"
+              ]
+            },
+            {
+              "type": "boolean",
+              "label": "No Index",
+              "name": "noIndex",
+              "namespace": [
+                "legal",
+                "seo",
+                "noIndex"
+              ]
+            }
+          ],
+          "namespace": [
+            "legal",
+            "seo"
+          ]
+        }
+      ],
+      "namespace": [
+        "legal"
+      ]
+    }
+  ]
+}

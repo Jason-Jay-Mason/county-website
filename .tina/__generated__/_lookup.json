@@ -1,0 +1,134 @@
+{
+  "DocumentConnection": {
+    "type": "DocumentConnection",
+    "resolveType": "multiCollectionDocumentList",
+    "collections": [
+      "global",
+      "home",
+      "about",
+      "contact",
+      "projects",
+      "project",
+      "service",
+      "legal"
+    ]
+  },
+  "Node": {
+    "type": "Node",
+    "resolveType": "nodeDocument"
+  },
+  "DocumentNode": {
+    "type": "DocumentNode",
+    "resolveType": "multiCollectionDocument",
+    "createDocument": "create",
+    "updateDocument": "update"
+  },
+  "GlobalFooterLegalTitleDocument": {
+    "type": "GlobalFooterLegalTitleDocument",
+    "resolveType": "multiCollectionDocument",
+    "createDocument": "create",
+    "updateDocument": "update"
+  },
+  "GlobalDocument": {
+    "type": "GlobalDocument",
+    "resolveType": "collectionDocument",
+    "collection": "global",
+    "createGlobalDocument": "create",
+    "updateGlobalDocument": "update"
+  },
+  "GlobalConnection": {
+    "type": "GlobalConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "global"
+  },
+  "HomeServiceSliderCategoryListServicesTitleDocument": {
+    "type": "HomeServiceSliderCategoryListServicesTitleDocument",
+    "resolveType": "multiCollectionDocument",
+    "createDocument": "create",
+    "updateDocument": "update"
+  },
+  "HomeDocument": {
+    "type": "HomeDocument",
+    "resolveType": "collectionDocument",
+    "collection": "home",
+    "createHomeDocument": "create",
+    "updateHomeDocument": "update"
+  },
+  "HomeConnection": {
+    "type": "HomeConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "home"
+  },
+  "AboutDocument": {
+    "type": "AboutDocument",
+    "resolveType": "collectionDocument",
+    "collection": "about",
+    "createAboutDocument": "create",
+    "updateAboutDocument": "update"
+  },
+  "AboutConnection": {
+    "type": "AboutConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "about"
+  },
+  "ContactDocument": {
+    "type": "ContactDocument",
+    "resolveType": "collectionDocument",
+    "collection": "contact",
+    "createContactDocument": "create",
+    "updateContactDocument": "update"
+  },
+  "ContactConnection": {
+    "type": "ContactConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "contact"
+  },
+  "ProjectsDocument": {
+    "type": "ProjectsDocument",
+    "resolveType": "collectionDocument",
+    "collection": "projects",
+    "createProjectsDocument": "create",
+    "updateProjectsDocument": "update"
+  },
+  "ProjectsConnection": {
+    "type": "ProjectsConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "projects"
+  },
+  "ProjectDocument": {
+    "type": "ProjectDocument",
+    "resolveType": "collectionDocument",
+    "collection": "project",
+    "createProjectDocument": "create",
+    "updateProjectDocument": "update"
+  },
+  "ProjectConnection": {
+    "type": "ProjectConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "project"
+  },
+  "ServiceDocument": {
+    "type": "ServiceDocument",
+    "resolveType": "collectionDocument",
+    "collection": "service",
+    "createServiceDocument": "create",
+    "updateServiceDocument": "update"
+  },
+  "ServiceConnection": {
+    "type": "ServiceConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "service"
+  },
+  "LegalDocument": {
+    "type": "LegalDocument",
+    "resolveType": "collectionDocument",
+    "collection": "legal",
+    "createLegalDocument": "create",
+    "updateLegalDocument": "update"
+  },
+  "LegalConnection": {
+    "type": "LegalConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "legal"
+  }
+}

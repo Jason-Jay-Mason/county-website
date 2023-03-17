@@ -1,0 +1,214 @@
+{
+  "header": {
+    "nav": [
+      {
+        "href": "/about",
+        "label": "About"
+      },
+      {
+        "href": "",
+        "label": "Services",
+        "children": [
+          {
+            "href": "/excavation",
+            "label": "Excavation",
+            "blurb": "General excavation work",
+            "icon": "https://res.cloudinary.com/countylineexcavation/image/upload/v1644437330/Icons/excavator-icon_ydgs5f.svg"
+          },
+          {
+            "href": "/grading",
+            "label": "Grading",
+            "blurb": "General grading work",
+            "icon": "https://res.cloudinary.com/countylineexcavation/image/upload/v1644456389/Icons/grading-icon_i5pnpk.svg"
+          },
+          {
+            "href": "/trenching",
+            "label": "Trenching",
+            "blurb": "Utilities & new construction",
+            "icon": "https://res.cloudinary.com/countylineexcavation/image/upload/v1644456387/Icons/trenching_sf2eir.svg"
+          },
+          {
+            "href": "/drainage",
+            "label": "Drainage",
+            "blurb": "Drainage specialist",
+            "icon": "https://res.cloudinary.com/countylineexcavation/image/upload/v1644456387/Icons/drainage-icon_d6arpa.svg"
+          },
+          {
+            "href": "/retaining-walls",
+            "label": "Retaining Walls",
+            "blurb": "New construction & repair",
+            "icon": "https://res.cloudinary.com/countylineexcavation/image/upload/v1644456387/Icons/retaining-walls-icon_ddrvl7.svg"
+          },
+          {
+            "href": "/driveways",
+            "label": "Driveways",
+            "blurb": "Gravel repair and construction",
+            "icon": "https://res.cloudinary.com/countylineexcavation/image/upload/v1644456387/Icons/driveway-icon_tscm4v.svg"
+          },
+          {
+            "href": "/new-construction",
+            "label": "New Construction",
+            "blurb": "A-Z excavation for new projects",
+            "icon": "https://res.cloudinary.com/countylineexcavation/image/upload/v1644456387/Icons/new-construction-icon_vsckuw.svg"
+          },
+          {
+            "href": "/siteprep",
+            "label": "Site Prep",
+            "blurb": "Land clearing, grading, & excavation",
+            "icon": "https://res.cloudinary.com/countylineexcavation/image/upload/v1644456389/Icons/siteprep-icon_gys0sn.svg"
+          }
+        ]
+      },
+      {
+        "href": "/projects",
+        "label": "Projects"
+      }
+    ]
+  },
+  "reviews": {
+    "sliderSpeed": 30,
+    "reviewsList": [
+      {
+        "title": "Lisa Garrett",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1652206284/Review%20Profiles/Lisa_uxux9o.png",
+        "review": "Marcus made our clean up project a quick and simple process.   He kept us up to date on the progress and all that was happening and our yard looks amazing !!"
+      },
+      {
+        "title": "susan ricketts",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1652206206/Review%20Profiles/susan_jqzz8d.png",
+        "review": "I couldn't be happier with the work that County Line did for us. Our driveway and new parking area are amazing. We are finally reclaiming our property from the berries and brush after the mulching that they did. Marcus wasn't done until we were 100% satisfied. They will be doing more work for us. Highly recommend."
+      },
+      {
+        "title": "Shaun Rasmussen",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1652206138/Review%20Profiles/shaun_drxzo4.png",
+        "review": "I'm just completing a house build and have realized just how difficult it is to find anyone in this industry with any integrity. I've dealt with around 15 contractors, and Marcus is one of the very few that actually cares about his customers and his quality of work. Marcus has gone above and beyond multiple times, and if any issues come up, he makes sure it gets fixed in a way that works for everyone. He has repeatedly helped fix issues caused by other contractors. He is a great guy that does great work. I'm super lucky to have found him to help with our house build."
+      },
+      {
+        "title": "Jenn Owens",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1643230155/Review%20Profiles/jenn-o_zezkud.png",
+        "review": "We hired County Line construction to add a second driveway/entrance to our land.  Very timely communication throughout the project and took care of everything including permits for a seemless job.  Would definitely recommend and rehire for other jobs.\n",
+        "link": "https://www.google.com/maps/contrib/101214586513774095890/place/ChIJGdVuo6NNkFQRTKD1LN1NEys/@47.5214144,-122.633504,11z/data=!4m6!1m5!8m4!1e1!2s101214586513774095890!3m1!1e1?hl=en-US",
+        "date": "2021-04-01T06:00:00.000Z"
+      },
+      {
+        "title": "J Pillers",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1643230169/Review%20Profiles/j-p_fwj77b.png",
+        "review": "Wonderful experience working with. Marcus and County line. He is very responsive and listened to our needs and made recommendations based upon his experience. It is clear from the first visit that the customer is number one for him . Thank you and we will have more work soon 😊",
+        "link": "https://www.google.com/maps/contrib/114884542800891794914/place/ChIJGdVuo6NNkFQRTKD1LN1NEys/@47.3867124,-122.6200408,16z/data=!4m6!1m5!8m4!1e1!2s114884542800891794914!3m1!1e1?hl=en-US",
+        "date": "2021-09-01T06:00:00.000Z"
+      },
+      {
+        "title": "Alison Newman",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1643230185/Review%20Profiles/alison-n_kxmxt8.png",
+        "review": "The previous owners of my house had logged the property and left behind massive debris piles. We chose County Line Construction to clean these up with a forestry mulcher. Other companies only offered to haul it off or only chip a few piles and at a higher cost. Marcus was friendly, professional, transparent about pricing, and very skilled with the mulcher. The yard is transformed thanks to Marcus and County Line Construction!",
+        "link": "https://www.google.com/maps/contrib/112413903887953425533/place/ChIJGdVuo6NNkFQRTKD1LN1NEys/@47.3867124,-122.6200408,16z/data=!4m6!1m5!8m4!1e1!2s112413903887953425533!3m1!1e1?hl=en-US",
+        "date": "2021-11-03T06:00:00.000Z"
+      },
+      {
+        "title": "Jon Lipke",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1643230178/Review%20Profiles/jon-l_dodzpo.png",
+        "review": "County Line Construction is awesome!! We had a large area totally overgrown with brush, blackberries and stumps that we needed cleared and leveled. Marcus of County Line Construction was recommended to us by a neighbor and I am glad they did! He came out to take a look the space and put a very reasonable bid together for us. He put us on his schedule and was actually able to finish the job early. Marcus was great to work with. He communicated with us throughout the entire process, was on time and we are extremely happy with the work. We will be recommending County Line to the rest of our neighbors!",
+        "link": "https://www.google.com/maps/contrib/108741269415029833200/place/ChIJGdVuo6NNkFQRTKD1LN1NEys/@47.3867124,-122.6200408,16z/data=!4m6!1m5!8m4!1e1!2s108741269415029833200!3m1!1e1?hl=en-US",
+        "date": "2021-05-03T06:00:00.000Z"
+      },
+      {
+        "title": "Anika Blake",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1643230208/Review%20Profiles/anika-b_x65xnd.png",
+        "review": "We had a few bids done for moving and rebuilding our rock wall and County Line was the most knowledgeable and reasonably priced. He completed the job early and under budget which NEVER happens. So timely, responsive, pleasant to work with and made sure we were completely happy with the results before payment. Could not recommend more highly!",
+        "link": "https://www.google.com/maps/contrib/112353390926161413506/place/ChIJGdVuo6NNkFQRTKD1LN1NEys/@47.3867124,-122.6178468,17z/data=!4m6!1m5!8m4!1e2!2s112353390926161413506!3m1!1e1?hl=en-US",
+        "date": "2021-12-21T07:00:00.000Z"
+      },
+      {
+        "title": "James Dault",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1643230200/Review%20Profiles/james-d_vzc7ba.png",
+        "review": "We bought some property that was full of bushes and small trees that needed to be removed.  We called Marcus and he fit us in his schedule right away. He came out on time, ready to work. We told him roughly what we wanted and let him go at it. The results were better than we hoped for. He was able to do things I didn't think we could do on that property.  I definitely recommend Marcus and we will be repeat customers once we are ready for gravel work!",
+        "link": "https://www.google.com/maps/contrib/114930097967857959476/place/ChIJGdVuo6NNkFQRTKD1LN1NEys/@47.3867124,-122.6178468,17z/data=!4m6!1m5!8m4!1e2!2s114930097967857959476!3m1!1e1?hl=en-US",
+        "date": "2021-11-08T07:00:00.000Z"
+      },
+      {
+        "title": "E. Faithe Lester",
+        "profile": "https://res.cloudinary.com/countylineexcavation/image/upload/v1643230192/Review%20Profiles/faithe-l_dhtxjd.png",
+        "review": "Marcus provided exceptional service. He is pleasant, personable and an excellent communicator. But, those are not the only qualities that earned him my five stars.  He is quick, efficient and, above all else,  a perfectionist. Once completed the pad for my She Shed (photographic art studio) was practically a work-of-art itself. In need of some dirt being moved around? Marcus is the best!",
+        "link": "https://www.google.com/maps/contrib/104506725463002180474/place/ChIJGdVuo6NNkFQRTKD1LN1NEys/@48.0506537,-60.658034,3z/data=!4m6!1m5!8m4!1e2!2s104506725463002180474!3m1!1e1?hl=en-US",
+        "date": "2021-11-10T07:00:00.000Z"
+      }
+    ]
+  },
+  "contactInfo": {
+    "businessName": "County Line Construction & Excavation",
+    "phoneNumber": "(253) 514-9529",
+    "email": "Marcus@countylineconstruction.us ",
+    "hours": "6:00am - 6:00pm Monday - Sunday",
+    "facebookUrl": "https://www.facebook.com/CountyLineConstructionLLC/",
+    "googleMapsUrl": "https://www.google.com/maps/place/County+Line+Construction+%26+Excavation/@47.4211067,-122.5977326,15z/data=!4m2!3m1!1s0x0:0x2b134ddd2cf5a04c?sa=X&ved=2ahUKEwjBzPbl9NX3AhXmmeAKHT76C70Q_BJ6BAhXEAY",
+    "linkedInUrl": "",
+    "youTubeUrl": "",
+    "instagramUrl": "",
+    "bbbUrl": "/"
+  },
+  "footer": {
+    "services": [
+      {
+        "title": "Excavation",
+        "link": "/excavation"
+      },
+      {
+        "title": "Grading",
+        "link": "/grading"
+      },
+      {
+        "title": "Site Prep",
+        "link": "/siteprep"
+      },
+      {
+        "title": "New Construction",
+        "link": "/new-construction"
+      },
+      {
+        "title": "Driveways",
+        "link": "/driveways"
+      },
+      {
+        "title": "Retaining Walls",
+        "link": "/retaining-walls"
+      },
+      {
+        "title": "Drainage",
+        "link": "/drainage"
+      },
+      {
+        "title": "Trenching",
+        "link": "/trenching"
+      }
+    ],
+    "pages": [
+      {
+        "title": "Home",
+        "link": "/"
+      },
+      {
+        "title": "About",
+        "link": "/about"
+      },
+      {
+        "title": "Projects",
+        "link": "/projects"
+      },
+      {
+        "title": "Contact",
+        "link": "/contact"
+      }
+    ],
+    "legal": [
+      {
+        "title": "content/legal/privacy-policy.md"
+      },
+      {
+        "title": "content/legal/terms-of-service.md"
+      },
+      {
+        "title": "content/legal/creative-commons-attribution.md"
+      }
+    ]
+  }
+}

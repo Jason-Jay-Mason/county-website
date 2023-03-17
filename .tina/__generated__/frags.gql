@@ -1,0 +1,335 @@
+fragment GlobalParts on Global {
+  header {
+    __typename
+    nav {
+      __typename
+      href
+      label
+      children {
+        __typename
+        href
+        label
+        blurb
+        icon
+      }
+    }
+  }
+  reviews {
+    __typename
+    sliderSpeed
+    reviewsList {
+      __typename
+      title
+      profile
+      review
+      link
+      date
+    }
+  }
+  contactInfo {
+    __typename
+    businessName
+    phoneNumber
+    email
+    hours
+    facebookUrl
+    googleMapsUrl
+    linkedInUrl
+    youTubeUrl
+    instagramUrl
+    bbbUrl
+  }
+  footer {
+    __typename
+    services {
+      __typename
+      title
+      link
+    }
+    pages {
+      __typename
+      title
+      link
+    }
+    legal {
+      __typename
+      title {
+        ... on Document {
+          id
+        }
+      }
+    }
+  }
+}
+
+fragment HomeParts on Home {
+  hero {
+    __typename
+    subHeadline
+    headline
+    mobileBackgroundSrc
+    hook
+    videoButtonToggle
+    videoButtonText
+    videoButtonLink
+    ctaButtonToggle
+    ctaButtonText
+    ctaButtonLink
+  }
+  serviceSlider {
+    __typename
+    categoryList {
+      __typename
+      title
+      headline
+      body
+      toggleServices
+      services {
+        __typename
+        title {
+          ... on Document {
+            id
+          }
+        }
+      }
+      ctaButtonText
+      ctaButtonLink
+      beforeImage
+      afterImage
+    }
+  }
+  planSlider {
+    __typename
+    categoryList {
+      __typename
+      title
+      headline
+      icon
+      body
+      ctaButtonText
+      ctaButtonLink
+      featuredImage
+    }
+  }
+  preFooterCTA {
+    __typename
+    subHeadline
+    headline
+    ctaButtonText
+    ctaButtonLink
+  }
+  seo {
+    __typename
+    title
+    description
+    image
+    noFollow
+    noIndex
+  }
+}
+
+fragment AboutParts on About {
+  hero {
+    __typename
+    icon
+    pageTitle
+    headline
+    hook
+    ctaButtonToggle
+    ctaButtonText
+    ctaButtonLink
+    videoButtonToggle
+    videoButtonText
+    videoButtonLink
+  }
+  featuredSection {
+    __typename
+    subHeadline
+    headline
+    image
+    body
+    ctaButtonToggle
+    ctaButtonText
+    ctaButtonLink
+  }
+  featuredGrid {
+    __typename
+    maxColumns
+    features {
+      __typename
+      title
+      iconToggle
+      icon
+      headline
+      body
+    }
+  }
+  longText {
+    __typename
+    subHeadline
+    headline
+    bodyRows {
+      __typename
+      bodyColumns {
+        __typename
+        body
+      }
+    }
+    ctaButtonToggle
+    ctaButtonText
+    ctaButtonLink
+    ctaButtonToggle2
+    ctaButtonText2
+    ctaButtonLink2
+  }
+  seo {
+    __typename
+    title
+    description
+    image
+    noFollow
+    noIndex
+  }
+}
+
+fragment ContactParts on Contact {
+  hero {
+    __typename
+    icon
+    pageTitle
+    headline
+    hook
+    ctaButtonToggle
+    ctaButtonText
+    ctaButtonLink
+    videoButtonToggle
+    videoButtonText
+    videoButtonLink
+  }
+  serviceAreas
+  seo {
+    __typename
+    title
+    description
+    image
+    noFollow
+    noIndex
+  }
+}
+
+fragment ProjectsParts on Projects {
+  hero {
+    __typename
+    icon
+    pageTitle
+    headline
+    hook
+    ctaButtonToggle
+    ctaButtonText
+    ctaButtonLink
+    videoButtonToggle
+    videoButtonText
+    videoButtonLink
+  }
+  seo {
+    __typename
+    title
+    description
+    image
+    noFollow
+    noIndex
+  }
+}
+
+fragment ProjectParts on Project {
+  title
+  date
+  featuredImage
+  beforeAfterToggle
+  beforeImage
+  afterImage
+  projectDescription
+  morePhotos {
+    __typename
+    title
+  }
+  seo {
+    __typename
+    title
+    description
+    image
+    noFollow
+    noIndex
+  }
+  deactivate
+}
+
+fragment ServiceParts on Service {
+  serviceName
+  icon
+  hero {
+    __typename
+    icon
+    pageTitle
+    backgroundImageSrc
+    headline
+    hook
+    ctaButtonToggle
+    ctaButtonText
+    ctaButtonLink
+    videoButtonToggle
+    videoButtonText
+    videoButtonLink
+  }
+  featuredGrid {
+    __typename
+    maxColumns
+    features {
+      __typename
+      title
+      iconToggle
+      icon
+      headline
+      body
+    }
+  }
+  longText {
+    __typename
+    subHeadline
+    headline
+    bodyRows {
+      __typename
+      bodyColumns {
+        __typename
+        body
+      }
+    }
+    ctaButtonToggle
+    ctaButtonText
+    ctaButtonLink
+    ctaButtonToggle2
+    ctaButtonText2
+    ctaButtonLink2
+  }
+  seo {
+    __typename
+    title
+    description
+    image
+    noFollow
+    noIndex
+  }
+}
+
+fragment LegalParts on Legal {
+  legalDocumentTitle
+  body
+  seo {
+    __typename
+    title
+    description
+    image
+    noFollow
+    noIndex
+  }
+}

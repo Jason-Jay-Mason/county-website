@@ -1,0 +1,311 @@
+query getGlobalDocument($relativePath: String!) {
+  getGlobalDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...GlobalParts
+    }
+  }
+}
+
+query getGlobalList {
+  getGlobalList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...GlobalParts
+        }
+      }
+    }
+  }
+}
+
+query getHomeDocument($relativePath: String!) {
+  getHomeDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...HomeParts
+    }
+  }
+}
+
+query getHomeList {
+  getHomeList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...HomeParts
+        }
+      }
+    }
+  }
+}
+
+query getAboutDocument($relativePath: String!) {
+  getAboutDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...AboutParts
+    }
+  }
+}
+
+query getAboutList {
+  getAboutList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...AboutParts
+        }
+      }
+    }
+  }
+}
+
+query getContactDocument($relativePath: String!) {
+  getContactDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...ContactParts
+    }
+  }
+}
+
+query getContactList {
+  getContactList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...ContactParts
+        }
+      }
+    }
+  }
+}
+
+query getProjectsDocument($relativePath: String!) {
+  getProjectsDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...ProjectsParts
+    }
+  }
+}
+
+query getProjectsList {
+  getProjectsList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...ProjectsParts
+        }
+      }
+    }
+  }
+}
+
+query getProjectDocument($relativePath: String!) {
+  getProjectDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...ProjectParts
+    }
+  }
+}
+
+query getProjectList {
+  getProjectList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...ProjectParts
+        }
+      }
+    }
+  }
+}
+
+query getServiceDocument($relativePath: String!) {
+  getServiceDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...ServiceParts
+    }
+  }
+}
+
+query getServiceList {
+  getServiceList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...ServiceParts
+        }
+      }
+    }
+  }
+}
+
+query getLegalDocument($relativePath: String!) {
+  getLegalDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...LegalParts
+    }
+  }
+}
+
+query getLegalList {
+  getLegalList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...LegalParts
+        }
+      }
+    }
+  }
+}
